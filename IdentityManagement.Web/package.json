@@ -1,0 +1,9 @@
+﻿{
+    "name": "BookinZA.Site",
+    "version": "1.0.0",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-copy": "~0.8.0",
+        "grunt-text-replace":  "~0.4.0"
+    }
+}

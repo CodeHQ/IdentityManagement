@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IdentityManagement</id>
+    <version>1.0.2</version>
+    <title>Asp.Net Identity Manager Dashboard</title>
+    <authors>ByteBlocks, Code HQ</authors>
+    <owners>ByteBlocks, Code HQ</owners>
+    <description>Asp.Net Identity management dashboard to help you manage user accounts and roles</description>
+    <releaseNotes>Added ability to lock and unlock user accounts</releaseNotes>
+    <language>en-US</language>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright  2015</copyright>
+    <tags>Identity MVC</tags>
+    <references></references>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
