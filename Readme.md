@@ -44,5 +44,5 @@ public class RouteConfig
 }
 ```
 
-### Building the Nuget packaage from source
+### Building the Nuget package from source
 The Nuget package project's contents folder is populating using grunt and transforming all the classes to .cs.pp files, so that they can easily be used in different projects.  There is a gruntfile.js file in the root of the IdentityManagement.Web project and running the default grunt task, the files from the IdentityManagement.Web/Areas/IdentityManagement and the 3 Model files will be copied and trasnformed to the Nuget package.
