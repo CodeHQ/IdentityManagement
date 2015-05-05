@@ -6,6 +6,8 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/font-awesome.css")
+
 
 </head>
 <body>
@@ -22,8 +24,8 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Users Admin", "Index", "UsersAdmin", new { area = "IdentityManagement"})</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Users", "Index", "Users", new { area = "IdentityManagement"}, null)</li>
+                    <li>@Html.ActionLink("Roles", "Index", "Roles", new { area = "IdentityManagement" }, null)</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
