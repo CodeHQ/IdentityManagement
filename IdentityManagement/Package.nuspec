@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>IdentityManagement</id>
+    <id>IdentityManagement.MVC</id>
     <version>1.0.2</version>
     <title>Asp.Net Identity Manager Dashboard</title>
     <authors>ByteBlocks, Code HQ</authors>
@@ -11,7 +11,7 @@
     <language>en-US</language>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
-    <copyright>Copyright  2015</copyright>
+    <copyright>Copyright  2017</copyright>
     <tags>Identity MVC</tags>
     <references></references>
   </metadata>
