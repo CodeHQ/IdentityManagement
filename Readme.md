@@ -4,7 +4,10 @@ First off, thanks to [ByteBlocks](http://www.byteblocks.com/) for creating the [
 
 ### Getting Started
 
-Install the nuget package and it will create an Area named IdentityManagement and add these three example user and role configurations to the Models folder:
+Install the nuget package:
+>Install-Package IdentityManagement.MVC
+>
+It will create an Area named IdentityManagement and add these three example user and role configurations to the Models folder:
 
 ApplicationUserManager.cs
 
